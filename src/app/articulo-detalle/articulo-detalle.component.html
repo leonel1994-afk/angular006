@@ -1,0 +1,8 @@
+<div class="container">
+    <h4> El producto es: {{articulo.nombre}}</h4>
+    <p> La descripcion es: {{ articulo.descripcion}}</p>
+    <p> El precio es: {{ articulo.precio | currency: 'USD'}}</p>
+    <p>Stock: {{articulo.stock}}</p>
+    <p>Precio Mayorista: {{ articulo.precioMayorista | currency: 'USD'}}</p>
+</div>
+<!--como pasar con un router link mas de un parametro-->
